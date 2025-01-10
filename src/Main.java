@@ -155,7 +155,7 @@ public class Main {
 
         if (powerToName.size() == 0) {
             System.out.println("///////////////////");
-            System.out.println("This Place Empty bruh");
+            System.out.println("No Weapons In Collection to Sort");
         }
         System.out.println("///////////////////");
     }
