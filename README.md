@@ -1,18 +1,12 @@
-## Getting Started
+A Weapons Inventory Program - This was a little program I started working on in December 2024 after finals, to practice on my Java programming :)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This program allows users to add weapons to one of 3 weapon types: Melee, Range and Defense. Users can input weapon name, type, and power level.
 
-## Folder Structure
+It utilizes one Weapon class with the standard getters, setters and a getInfo() method to print out a nice looking view of a weapon and its properties. 
 
-The workspace contains two folders by default, where:
+I then create three separate ArrayLists of type 'Weapon' to store the three different weapon types
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+After user inputs the properties of their weapons, the program takes that data and use them as parameters to create a new Weapon object that is then added to its respective ArrayList of type 'Weapon'
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Users can then see the weapons currently in their collection, organized by weapon type.
+As well as see what their strongest weapons are, from strongest to weakest, ordered despite the weapon type.
