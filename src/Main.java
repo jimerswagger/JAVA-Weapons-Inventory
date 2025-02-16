@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        Weapon w = new Weapon(); //this is not asking for parameters because it is assuming I am calling the empty constructor that doesn't require parameters name and power
+        //Weapon w = new Weapon(); //this is not asking for parameters because it is assuming I am calling the empty constructor that doesn't require parameters name and power
         //it's saying that the w weapon object is never used which is true, I am just creating a new weapon object at the same time I add that weapon object to the arraylist
         ArrayList<Weapon> m = new ArrayList<>(); //arraylist for MELEE weapons
         ArrayList<Weapon> d = new ArrayList<>(); //arraylist for DEFENSE weapons
@@ -64,9 +64,9 @@ public class Main {
         System.out.println("1. Melee");
         System.out.println("2. Defense");
         System.out.println("3. Range");
-        System.out.println("4. ALL"); //not implemented yet but would be cool.
+        System.out.println("4. ALL\n"); //not implemented yet but would be cool.
 
-        s.nextLine(); //figure out why you have to do this, we have to skip a line before I ask the user for another input?
+        //s.nextLine(); //figure out why you have to do this, we have to skip a line before I ask the user for another input?
 
         String type = s.nextLine();
 
